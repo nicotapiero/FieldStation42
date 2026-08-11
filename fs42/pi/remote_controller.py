@@ -591,6 +591,8 @@ def get_key_name_from_code(key_code):
     key_map[ecodes.KEY_X] = 'x'
     key_map[ecodes.KEY_Y] = 'y'
     key_map[ecodes.KEY_Z] = 'z'
+
+    key_map[582] = 'home'
     
     return key_map.get(key_code)
 
